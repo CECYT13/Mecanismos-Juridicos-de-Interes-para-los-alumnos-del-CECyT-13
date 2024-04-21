@@ -11,6 +11,7 @@ body
 }
 #DIV1
 {
+    position:relative;
     background-color: rgb(255, 255, 255);
     display: flex; 
     width:100%;
@@ -34,6 +35,7 @@ body
 }
 #BNAV
 {
+    position:relative;
     background-color: rgb(54, 54, 54);  
     border: 1px solid black; 
     direction: rtl;
@@ -62,6 +64,7 @@ body
 }
 #DIVC
 {
+    position:relative;
     display: flex;
     background-color:rgb(128, 128, 128);
     color: white;
