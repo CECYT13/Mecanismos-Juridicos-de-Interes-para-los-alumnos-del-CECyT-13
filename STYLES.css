@@ -180,29 +180,3 @@ body
     position: relative;
     top: 10px;
 }
-@media only screen and (min-width: 601px) and (max-width: 900px) 
-{
-#DIV1
-{
-    position:relative;
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-    display: flex; 
-    height: 80px;
-    margin-bottom: 0px;
-    border: 1px solid black; 
-}
-}
-@media only screen and (max-width: 600px) 
-{
-#DIV1
-{
-    position:relative;
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-    display: flex; 
-    height: 80px;
-    margin-bottom: 0px;
-    border: 1px solid black; 
-}
-}
