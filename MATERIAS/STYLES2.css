@@ -1,0 +1,28 @@
+body
+{
+    background-image: url(FONDO_CONTA.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: white;
+    height: auto;
+
+}
+#videotam
+{
+    width: 500px;
+    height: 300px;
+}
+#framevideo
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border: 1px solid black;
+    width: 500px;
+    height: 300px;
+    margin-top: 200px;
+    margin-left: 450px;
+}
