@@ -207,7 +207,7 @@ body
     border: 1px solid black; 
 }
 }
-@media only screen and (min-width: 400px) and (max-width:600px)
+@media only screen and (min-width: 200px) and (max-width:600px)
 {
 #DIV1
     {
