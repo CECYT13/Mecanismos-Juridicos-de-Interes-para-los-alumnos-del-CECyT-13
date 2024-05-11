@@ -342,7 +342,7 @@ body
     position: relative;
     display: flex;
     overflow: hidden;
-    width: 500px;
+    width: auto;
     height: 170px;
     margin-left: 1px;
     margin-bottom: 10px;
@@ -355,7 +355,7 @@ body
     position: relative;
     display: flex;
     overflow: hidden;
-    width: 500px;
+    width: auto;
     height: 170px;
     margin-left: 1px;
     margin-bottom: 10px;
