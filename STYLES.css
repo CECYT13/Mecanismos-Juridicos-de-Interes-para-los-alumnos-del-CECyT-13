@@ -1,0 +1,325 @@
+body
+{
+    font-size:larger;
+    background-image: url(IMAGENES/BACK.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: white;
+    height: auto;
+
+}
+#DIV1
+{
+    position:relative;
+    width: 1330px;
+    background-color: rgb(255, 255, 255);
+    display: flex; 
+    height: 80px;
+    margin-bottom: 0px;
+    border: 1px solid black; 
+}
+#txt
+{
+    margin-top: 10px;
+    margin-left: 8px;
+    transform: translate(5%,-5%);
+}
+#txt1
+{
+    margin-bottom: -5px;
+    font-size:xx-large;
+}
+#IMGC1
+{
+    vertical-align: middle;
+    margin-right: 10px;
+}
+#BNAV
+{
+    position:relative;
+    display: flex;
+    width: 1330px;
+    height: 30px;
+    background-color: rgb(54, 54, 54);  
+    border: 1px solid black; 
+    direction: rtl;
+    text-decoration: none;
+}
+#TITLE
+{
+    position:relative;
+    width: 1330px;
+    background-color: rgb(255, 255, 255);
+    display: flex; 
+    height: 90px;
+    margin-bottom: 0px;
+    border: 1px solid black; 
+    text-align:center;
+    
+}
+#ulbarra
+{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    align-items: center;
+}
+#lib
+{
+    display: inline;
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+}
+#links
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+#DIVC
+{
+    position:relative;
+    width: 1330px;
+    display: flex;
+    background-color:rgb(128, 128, 128);
+    color: white;
+    border:1px solid black;
+    height: 140px;
+    margin-bottom: 15px;
+}
+.scroll-down {
+    top: 100px;}
+#logoc13
+{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    width: 3cm;
+    height: 3cm;
+}
+#DIV4
+{
+    position:relative;
+    display: flex;
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/07/18/19/notebook-paper-1806473_1280.jpg);
+    border: 1px solid black; 
+    overflow: hidden;
+    height: 605px;
+    width: 290px;
+    margin-left: 15px;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    transition: top 0.3s ease; 
+}
+#link
+{
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size:larger;
+}    
+#li4
+{
+    margin-bottom: 5px;
+}
+#DIV5
+{
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    width: 992px;
+    height: 320px;
+    margin-left: 325px;
+    margin-top: -616px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    transition: top 0.3s ease;  
+}
+#DIVIMG
+{
+    display: block;
+    transition: transform 1s ease;
+}
+#DIVIMG2
+{
+    width: auto;
+    height: auto;
+}
+#buttom
+{
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.prev, .next 
+{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    z-index: 100;
+}
+.prev {
+    left: 0;
+  }
+  .next {
+    right: 0;
+}
+#PERIODICO
+{
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    width: 992px;
+    height: 320px;
+    margin-left: 325px;
+    margin-top: 20px;
+    border: 1px solid black;  
+    transition: top 0.3s ease; 
+}
+#VITRO
+{
+    position: relative;
+    top: 10px;
+}
+@media only screen and (min-width: 601px) and (max-width: 900px) 
+{
+#DIV1
+{
+    position:relative;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex; 
+    height: 80px;
+    margin-bottom: 0px;
+    border: 1px solid black; 
+}
+}
+@media only screen and (max-width: 600px) 
+{
+#DIV1
+    {
+        position:relative;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        display: flex; 
+        height: 80px;
+        margin-bottom: 0px;
+        border: 1px solid black;
+    }
+    #BNAV
+    {
+        position:relative;
+        display: flex;
+        width: 100%;
+        height: 40px;
+        background-color: rgb(54, 54, 54);  
+        border: 1px solid black; 
+        direction: rtl;
+        text-decoration: none;
+    }
+    #logoc13
+    {
+        position: relative;
+        top: 15px;
+        left: 10px;
+        width: 2.5cm;
+        height: 2.5cm;
+    }
+    #TITLE
+{
+    position:relative;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex; 
+    height: 120px;
+    margin-bottom: 0px;
+    border: 1px solid black; 
+    text-align:center;
+}
+#txt1
+{
+    margin-bottom: -5px;
+    font-size:medium;
+}
+#DIVC
+{
+    position:relative;
+    width: 100%;
+    display: flex;
+    background-color:rgb(128, 128, 128);
+    color: white;
+    border:1px solid black;
+    height: 140px;
+    margin-bottom: 15px;
+
+}
+#DIV4
+{
+    position:relative;
+    display: flex;
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/07/18/19/notebook-paper-1806473_1280.jpg);
+    border: 1px solid black; 
+    overflow: hidden;
+    height: 600px;
+    width: 200px;
+    margin-left: 15px;
+    margin-top: 200px;
+    margin-bottom: 10px;
+    transition: top 0.3s ease; 
+}
+#DIVIMG
+{
+    display: block;
+    transition: transform 1s ease;
+}
+#DIVIMG2
+{
+    width: auto;
+    height: 170px;
+}
+#DIV5
+{
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    width: auto;
+    height: 170px;
+    margin-left: 1px;
+    margin-top: -800px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    transition: top 0.3s ease;  
+}
+#PERIODICO
+{
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    width: 550px;
+    height: 170px;
+    margin-left: 325px;
+    margin-top: 20px;
+    border: 1px solid black;  
+    transition: top 0.3s ease; 
+}
+#link
+{
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size:small;
+} 
+}
