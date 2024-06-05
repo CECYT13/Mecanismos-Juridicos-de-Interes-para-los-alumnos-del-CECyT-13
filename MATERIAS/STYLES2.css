@@ -1,0 +1,79 @@
+body
+{
+    background-image: url(FONDO_CONTA.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: white;
+    height: auto;
+    width: auto;
+
+}
+#videotam
+{
+    width: 500px;
+    height: 300px;
+}
+#framevideo
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 500px;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: 450px;
+}
+#title
+{
+    text-align: left;
+    margin-left: 50px;
+    display: block;
+    margin-top: 30px;
+}
+@media only screen and (min-width: 421px) and (max-width:600px)
+{
+    #videotam
+{
+    width: 300px;
+    height: 200px;
+}
+body
+{
+    background-image: url(FONDO_CONTA.jpg);
+    background-size:auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: white;
+    height: auto;
+    width: auto;
+
+}
+#framevideo
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    right: 500px;
+    left: -280px;
+
+}
+#title
+{
+    text-align: left;
+    margin-left: 25px;
+    display: block;
+    margin-top: 15px;
+    font-size: small;
+}
+#TITLE3
+{
+    border: solid black 1px;
+}
+}
+ 
