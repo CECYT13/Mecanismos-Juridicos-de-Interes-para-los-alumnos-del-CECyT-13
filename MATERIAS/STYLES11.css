@@ -1,0 +1,57 @@
+body
+{
+    font-size:larger;
+    background-image: url(BACK.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: white;
+    height: auto;
+}
+#link
+{
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size:larger;
+}    
+#li4
+{
+    margin-bottom: 5px;
+}
+#DOCSS
+{
+    position: relative;
+    display: flex;
+    border: solid black 1px;
+    width: 200px;
+    height: 300px;
+    top: 120px;
+    left: 600px;   
+}
+@media only screen and (min-width: 421px) and (max-width:600px)
+{
+    #DOCSS
+    {
+        position: relative;
+        display: block;
+        border: solid black 1px;
+        width: 200px;
+        height: 300px;
+        top: 120px;
+        left: 150px;   
+    } 
+}
+@media only screen and (min-width: 60px) and (max-width:420px)
+{ 
+    #DOCSS
+    {
+        position: relative;
+        display: block;
+        border: solid black 1px;
+        width: 200px;
+        height: 300px;
+        top: 70px;
+        left: 50px;   
+    }    
+}

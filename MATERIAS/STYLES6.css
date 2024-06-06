@@ -1,0 +1,116 @@
+body
+{
+    background-image: url(FONDO_CF.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: white;
+    height: auto;
+
+}
+#videotam
+{
+    width: 500px;
+    height: 300px;
+}
+#framevideo
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 300px;;
+    top: 100px;
+    left: 400px;
+}
+#title
+{
+    text-align: left;
+    margin-left: 25px;
+    display: block;
+    margin-top: 15px;
+}
+@media only screen and (min-width: 421px) and (max-width:600px)
+{
+    #videotam
+    {
+        width: 300px;
+        height: 150px;
+    }
+    #framevideo
+    {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: 150px;
+        left: 90px;
+        top: 50px;
+    }
+#title
+{
+    text-align: left;
+    margin-left: 25px;
+    display: block;
+    margin-top: 15px;
+    font-size: small;
+    color: black;
+}  
+#title1
+{
+    text-align: left;
+    margin-left: 25px;
+    display: block;
+    margin-top: 15px;
+    font-size: x-large;
+    color: rgb(0, 0, 0);
+}  
+#TITLE2
+{
+    border: solid black 1px;
+}  
+}
+
+
+@media only screen and (min-width: 60px) and (max-width:420px)
+{
+    #videotam
+    {
+        width: 300px;
+        height: 150px;
+    }
+    #framevideo
+    {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: 150px;
+        left: 60px;
+        top: 20px;
+    }
+#title
+{
+    text-align: left;
+    margin-left: 25px;
+    display: block;
+    margin-top: 15px;
+    font-size:x-small
+}  
+#title1
+{
+    text-align: left;
+    margin-left: 25px;
+    display: block;
+    margin-top: 15px;
+    font-size: x-large;
+    color: white;
+}
+#TITLE2
+{ 
+     border: solid black 1px;
+}  
+}
